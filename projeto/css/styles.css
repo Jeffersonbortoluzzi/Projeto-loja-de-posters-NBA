@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgb(22, 133, 223);
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-top: 3px solid #00165f;
+    border-bottom: 3px solid #00165f;
+}
+
+/* Grid Produtos */
+.container {
+    background-color: rgb(255, 255, 255);
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image {
+    height: 390px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1 {
+    background-image: url('../img/jordan.jpeg');
+}
+
+#img-2 {
+    background-image: url('../img/lebron.jpeg');
+}
+
+#img-3 {
+    background-image: url('../img/legends.jpeg');
+}
+
+#img-4 {
+    background-image: url('../img/rodman.jpeg');
+}
+
+#img-5 {
+    background-image: url('../img/rose.jpeg');
+
+}
+
+#img-6 {
+    background-image: url('../img/rodman2.jpeg');
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: black;
+    border-left: 5px solid rgb(22, 133, 223);
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 10px;
+    font-size: sans-serif;
+    
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(22, 133, 223);
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5;
+}
+
+.btn:hover {
+    background-color: rgb(10, 17, 22);
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(22, 133, 223);
+    color: #ffffff;
+    border-top: 3px solid #00165f;
+    text-align: center;
+    padding: 80px;
+}
